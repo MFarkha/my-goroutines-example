@@ -1,4 +1,4 @@
-## This is a sample set of Go Lang program with goroutines and syncronization patters
+## This is a sample set of Go Lang programs with goroutines and synchronization patterns
 
 ### How to start
 - `go run main.go`
