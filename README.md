@@ -2,8 +2,9 @@
 
 ### How to start
 
-- `go run main.go`
-- `cat sample.txt | go run main.go` - calculate number of characters in the file
+- `go mod tidy` - install dependencies
+- uncomment `StartSomething()` in `main.go` alongside with import to run a module
+- `go run main.go` - run the wrapper main function
 
 ### Check directories for various concurency patterns
 
@@ -22,6 +23,8 @@
 - `go mod tidy` - update dependencies
 - `go test` - execute tests
 - `go fmt` - format all source files
+- `go clean -modcache` - clear the mod cache (install packages) which is stored at $GOPATH/pkg/mod
+- `go mod vendor` - copies all third-party dependencies to a vendor folder in your project root
 
 ### Intricacies of specific modules
 

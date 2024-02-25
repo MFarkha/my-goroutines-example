@@ -7,7 +7,8 @@ package main
 import (
 	// "github.com/MFarkha/my-goroutines-example/cancellation"
 	// "github.com/MFarkha/my-goroutines-example/fanin"
-	"github.com/MFarkha/my-goroutines-example/ctx"
+	// "github.com/MFarkha/my-goroutines-example/ctx"
+	"github.com/MFarkha/my-goroutines-example/mgrep"
 	// "github.com/MFarkha/my-goroutines-example/generator"
 	// "github.com/MFarkha/my-goroutines-example/pipeline"
 )
@@ -19,5 +20,6 @@ func main() {
 	// cancellation.StartCancelation()
 	// fanin.StartFanIn()
 	// generator.StartGenerator()
-	ctx.StartContext()
+	// ctx.StartContext()
+	mgrep.StartMgrep()
 }

@@ -2,3 +2,7 @@ github.com/chai2010/webp v1.1.1 h1:jTRmEccAJ4MGrhFOrPMpNGIJ/eybIgwKpcACsrTEapk=
 github.com/chai2010/webp v1.1.1/go.mod h1:0XVwvZWdjjdxpUEIf7b9g9VkHFnInUSYujwqTLEuldU=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+go.wit.com/dev/alexflint/arg v1.4.5 h1:asDx5f9IlfpknKjPBqqb2qndE91Pbo7ZDkWUgddfMhY=
+go.wit.com/dev/alexflint/arg v1.4.5/go.mod h1:wnWc+c6z8kSdDKYriMf6RpM+FiXmo5RYp/t4FNi0MU0=
+go.wit.com/dev/alexflint/scalar v1.2.1 h1:loXOcbVnd+8YeJRLey+XXidecBiedMDO00zQ26TvKNs=
+go.wit.com/dev/alexflint/scalar v1.2.1/go.mod h1:+rYsfxqdI2cwA8kJ7GCMwWbNJvfvWUurOCXLiwdTtSs=
