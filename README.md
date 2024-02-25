@@ -20,6 +20,7 @@
 
 - `go build` - builds & emits binary files
 - `go build -race` - checks for concurrency problems
+- `go install` - builds, emits and move binary into $GOPATH/bin folder
 - `go mod tidy` - update dependencies
 - `go test` - execute tests
 - `go fmt` - format all source files
