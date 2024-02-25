@@ -1,4 +1,4 @@
-## This is a sample set of Go Lang programs with goroutines and synchronization patterns
+## This is a sample set of Golang modules with goroutines and synchronization patterns
 
 ### How to start
 
@@ -7,12 +7,13 @@
 
 ### Check directories for various concurency patterns
 
-- Pipeline: break into "stages" with a goroutine for each stage (communicate with channels)
-- Fan-in: multiple input channels, single output channel
-- Close/cancelation: closing channel when end of data stream / end of work of a goroutine
-- Request Quit: dedicated "quit" channel. Listening for the channel and shuts down a goroutine
-- Context: calling "quit" function cancells all operations using the Context
-- Generator: calculate "one at time" as per processed
+- [Pipeline](pipeline/): break into "stages" with a goroutine for each stage (communicate with channels)
+- [Fan-in](fanin/): multiple input channels, single output channel
+- [Close/cancelation](pipeline/): closing channel when end of data stream / end of work of a goroutine
+- [Request Quit](cancellation/): dedicated "quit" channel. Listening for the channel and shuts down a goroutine
+- [Context](ctx/): calling "quit" function cancells all operations using the Context
+- [Generator](generator/): calculate "one at time" as per processed
+- [all patterns: multi-threaded grep](mgrep/): an example how to utilize goroutines, channels, bufio, waitgroups
 
 ### Go CLI commands
 
@@ -22,10 +23,10 @@
 - `go test` - execute tests
 - `go fmt` - format all source files
 
-### Inricacies of specific modules
+### Intricacies of specific modules
 
 - module [pipeline](./pipeline/) has `image` package in use
-- see [additional information](https://golang.org/doc/articles/image_package.html) about it
+- see an [additional information](https://golang.org/doc/articles/image_package.html) about it
 
 ### Kudos
 
